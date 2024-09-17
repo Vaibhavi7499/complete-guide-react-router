@@ -1,0 +1,20 @@
+.navbar-course{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.navbar-course ul{
+    display: flex;
+}
+
+.navbar-course ul li{
+    list-style-type: none;
+    margin-right: 20px;
+   
+    
+}
+
+.navbar-course ul li a{
+    text-decoration: none;
+}

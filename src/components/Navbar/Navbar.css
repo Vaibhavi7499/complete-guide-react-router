@@ -1,0 +1,45 @@
+.navbar {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.active {
+    border-bottom: 2px solid green;
+    padding-bottom: 4px;
+}
+
+.login-btn {
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+}
+
+.showcourse {
+    pointer-events: none;
+    opacity: 0.6;
+}

@@ -1,5 +1,14 @@
+import { useContext } from "react";
+import { NameContext } from "../../contexts/NameContext";
+
+
 const Contact = () => {
-  return <div>Contact</div>;
+
+  const {name} = useContext(NameContext);
+
+  return <div>
+    <h1>{name}</h1>
+  </div>;
 };
 
 export default Contact;

@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
+import Post from "./components/Post/Post";
 // import { NameContext } from "./contexts/NameContext";
 // import PageNotFound from "./components/PageNotFound/PageNotFound";
 // import CourseAuthorChild from "./components/courseAuthorChild/CourseAuthorChild";
@@ -46,6 +47,7 @@ const App = () => {
               <Route index element={<CourseAuthorChild/>}/>
               </Route>
             </Route>
+          <Route path="/post"  element={<Post/>}/>
           </Route>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
